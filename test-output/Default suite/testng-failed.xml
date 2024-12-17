@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.TC_003_ContactAdditionTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="testDetailsAndData"/>
+          <include name="reportSetUp"/>
+          <include name="reportInitialization"/>
+          <include name="launchBrowserAndURL"/>
+          <include name="contactAddtionTest" invocation-numbers="2"/>
+          <include name="closeReport"/>
+        </methods>
+      </class> <!-- tests.TC_003_ContactAdditionTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
